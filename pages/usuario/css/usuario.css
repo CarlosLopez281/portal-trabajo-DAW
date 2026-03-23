@@ -229,3 +229,61 @@ body {
 .cursor-pointer i:hover {
     color: #ffcc00;
 }
+
+/* Para el login */
+
+/*USUARIO*/
+body.usuario .left-panel {
+  background-color: #C9C3D6;
+}
+
+/*EMPRESA*/
+body.empresa .left-panel {
+  background-color: #5B5F97;
+}
+
+/*ADMINISTRADOR*/
+body.admin .left-panel {
+  background-color: #261498;
+}
+
+.btn-tipo {
+  border: none;
+  background: transparent;
+  padding: 6px 14px;
+  border-radius: 15px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  color: #333;
+}
+
+.btn-tipo.activo {
+  background-color: #d8cce3;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+  color: #000;
+}
+
+.btn-tipo:hover {
+  background-color: #e6e0f0;
+}
+
+body.empresa .btn-primary {
+  background-color: #6c6fa3;
+  border: none;
+}
+
+body.empresa h3 {
+  color: #5c5f8a;
+}
+
+body.empresa a {
+  color: #5c5f8a;
+}
+
+body.empresa {
+  background-color: #5B5F97;
+}
+
+body.usuario {
+  background-color: #C9C3D6;
+}
